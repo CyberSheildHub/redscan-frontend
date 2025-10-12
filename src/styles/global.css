@@ -1,0 +1,37 @@
+/* Global hacker vibe */
+body {
+  @apply bg-[#0b0f12] text-slate-200 font-mono;
+}
+
+a {
+  @apply text-emerald-400 hover:text-cyan-300 transition;
+}
+
+/* Cards */
+.ra-card {
+  @apply rounded-2xl bg-black/40 border border-white/10 p-4;
+}
+
+.ra-glass {
+  backdrop-filter: blur(12px);
+  background: rgba(20, 20, 30, 0.6);
+}
+
+/* Buttons */
+.ra-btn {
+  @apply px-4 py-2 rounded-lg font-semibold text-sm transition;
+}
+
+.ra-btn-primary {
+  @apply bg-emerald-500 hover:bg-emerald-400 text-black shadow-md;
+}
+
+.ra-btn-secondary {
+  @apply bg-zinc-800 hover:bg-zinc-700 text-slate-200;
+}
+
+/* Container */
+.ra-container {
+  @apply max-w-6xl mx-auto px-4;
+}
+
